@@ -15,8 +15,8 @@ export default function LandingPage() {
           <a href="#faq" style={{ fontSize: 14, color: '#666', textDecoration: 'none' }}>FAQ</a>
         </div>
         <div style={{ display: 'flex', gap: 8 }}>
-          <a href="/dashboard" style={{ padding: '8px 16px', border: '1.5px solid #d0d0d0', borderRadius: 8, fontSize: 13, fontWeight: 500, background: '#f5f5f7', color: '#444', textDecoration: 'none', display: 'inline-flex', alignItems: 'center' }}>Log in</a>
-          <a href="/dashboard" style={{ padding: '8px 18px', border: 'none', borderRadius: 8, fontSize: 13, fontWeight: 500, background: '#7F77DD', color: '#fff', textDecoration: 'none', display: 'inline-flex', alignItems: 'center' }}>Get started free</a>
+          <a href="/sign-in" style={{ padding: '8px 16px', border: '1.5px solid #d0d0d0', borderRadius: 8, fontSize: 13, fontWeight: 500, background: '#f5f5f7', color: '#444', textDecoration: 'none', display: 'inline-flex', alignItems: 'center' }}>Log in</a>
+          <a href="/sign-up" style={{ padding: '8px 18px', border: 'none', borderRadius: 8, fontSize: 13, fontWeight: 500, background: '#7F77DD', color: '#fff', textDecoration: 'none', display: 'inline-flex', alignItems: 'center' }}>Get started free</a>
         </div>
       </nav>
 
@@ -28,7 +28,7 @@ export default function LandingPage() {
         </h1>
         <p style={{ fontSize: 16, color: '#666', lineHeight: 1.75, maxWidth: 540, margin: '0 auto 32px' }}>The on-the-go notes app that automatically titles, tags, summarizes and connects your ideas — in 3 seconds flat.</p>
         <div style={{ display: 'flex', justifyContent: 'center', gap: 12, marginBottom: 14 }}>
-          <a href="/dashboard" style={{ padding: '13px 30px', background: '#7F77DD', color: '#fff', border: 'none', borderRadius: 10, fontSize: 15, fontWeight: 500, textDecoration: 'none', display: 'inline-flex', alignItems: 'center', gap: 6 }}>Start for free →</a>
+          <a href="/sign-up" style={{ padding: '13px 30px', background: '#7F77DD', color: '#fff', border: 'none', borderRadius: 10, fontSize: 15, fontWeight: 500, textDecoration: 'none', display: 'inline-flex', alignItems: 'center', gap: 6 }}>Start for free →</a>
           <a href="#how-it-works" style={{ padding: '13px 26px', border: '1.5px solid #d0d0d0', borderRadius: 10, fontSize: 15, background: '#f5f5f7', color: '#444', textDecoration: 'none', display: 'inline-flex', alignItems: 'center' }}>See how it works</a>
         </div>
         <div style={{ fontSize: 12, color: '#aaa', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 5 }}>
@@ -136,7 +136,7 @@ export default function LandingPage() {
                 </li>
               ))}
             </ul>
-            <a href="/dashboard" style={{ display: 'block', textAlign: 'center', padding: 11, borderRadius: 9, fontSize: 14, fontWeight: 500, background: '#f5f5f7', border: '1.5px solid #d0d0d0', color: '#444', textDecoration: 'none' }}>Get started free</a>
+            <a href="/sign-up" style={{ display: 'block', textAlign: 'center', padding: 11, borderRadius: 9, fontSize: 14, fontWeight: 500, background: '#f5f5f7', border: '1.5px solid #d0d0d0', color: '#444', textDecoration: 'none' }}>Get started free</a>
           </div>
           <div style={{ background: '#fff', border: '2px solid #7F77DD', borderRadius: 16, padding: 26 }}>
             <div style={{ background: '#EEEDFE', color: '#534AB7', fontSize: 11, fontWeight: 600, padding: '4px 12px', borderRadius: 20, display: 'inline-block', marginBottom: 12 }}>Most popular</div>
@@ -150,7 +150,7 @@ export default function LandingPage() {
                 </li>
               ))}
             </ul>
-            <a href="/dashboard" style={{ display: 'block', textAlign: 'center', padding: 11, borderRadius: 9, fontSize: 14, fontWeight: 500, background: '#7F77DD', border: 'none', color: '#fff', textDecoration: 'none' }}>Start Pro — $9/mo</a>
+            <a href="/sign-up" style={{ display: 'block', textAlign: 'center', padding: 11, borderRadius: 9, fontSize: 14, fontWeight: 500, background: '#7F77DD', border: 'none', color: '#fff', textDecoration: 'none' }}>Start Pro — $9/mo</a>
           </div>
         </div>
       </div>
@@ -208,7 +208,7 @@ export default function LandingPage() {
       <div style={{ margin: '0 48px 64px', background: '#7F77DD', borderRadius: 18, padding: 52, textAlign: 'center' }}>
         <div style={{ fontSize: 30, fontWeight: 600, color: '#fff', marginBottom: 12 }}>Start dumping your thoughts today</div>
         <div style={{ fontSize: 15, color: '#CECBF6', marginBottom: 28 }}>Free forever. No credit card. AI organizes everything.</div>
-        <a href="/dashboard" style={{ padding: '13px 30px', background: '#fff', color: '#7F77DD', border: 'none', borderRadius: 10, fontSize: 15, fontWeight: 600, textDecoration: 'none', display: 'inline-flex', alignItems: 'center', gap: 6 }}>Get started free →</a>
+        <a href="/sign-up" style={{ padding: '13px 30px', background: '#fff', color: '#7F77DD', border: 'none', borderRadius: 10, fontSize: 15, fontWeight: 600, textDecoration: 'none', display: 'inline-flex', alignItems: 'center', gap: 6 }}>Get started free →</a>
       </div>
 
       {/* FOOTER */}
